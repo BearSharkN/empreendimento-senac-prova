@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+.menu_principal{
+    position: fixed;
+    width: 100%;
+    background-color: #3D3D3D;
+}
+
+.menu_principal_conteudo{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.menu_principal .menu_principal_conteudo .logo{
+    flex-basis: 330px;
+    width: 190px;
+}
+
+.menu_principal .menu_principal_conteudo .menu_principal_conteudo_menu{
+    flex-basis: calc(100% - 330px);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu_principal_conteudo_menu ul{
+    display: flex;
+    align-items: stretch;
+}
+
+.menu_principal_conteudo_menu ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu_principal_conteudo_menu ul li a{
+    padding: 0 26px;
+    display: flex;;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+.menu_principal_conteudo_menu ul li a:hover{
+    color:red;
+    
+}
+
+.cabecalho_primario{
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/image_primaria.png);
+    background-color: #3D3D3D;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.cabecalho_primario_conteudo{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.cabecalho_primario .cabecalho_primario_conteudo h1{
+    font-size: 4em;
+    color: #fff;
+    font-weight: 300;
+   
+}
+
+.cabecalho_primario .cabecalho_primario_conteudo h2{
+    max-width: 400px;
+    padding-top: 30px;
+    font-size: 2em;
+    color: #fff;
+    font-weight: 300; 
+}
+
+
+.cabecalho_primario .cabecalho_primario_conteudo p{
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+
+}
+.cabecalho_primario .cabecalho_primario_conteudo .endereco{
+    padding-bottom: 20px;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+    text-align: end;
+}
+
+.cabecalho_primario .cabecalho_primario_conteudo .lancamento{
+    padding-top: 30px;
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 300;
+    text-align: initial;
+}
+
+.cabecalho_primario .cabecalho_primario_conteudo .cabecalho_primario_conteudo_spacer{
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 160px
+}
+
+
+
+.cabecalho_secundario{
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/senac.png);
+    background-color: #3F3F3F;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    
+}
+
+.cabecalho_secundario .cabecalho_secundario_conteudo{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.cabecalho_secundario .cabecalho_secundario_conteudo h1{
+    font-size: 3.75em;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+}
+
+.cabecalho_secundario .cabecalho_secundario_conteudo p{
+    
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cabecalho_secundario .cabecalho_secundario_conteudo .cabecalho_secundario_conteudo_spacer{
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 160px 40px;
+}
+
+.conheca_nossos_apartamentos{
+    color: #fff;
+    padding: 20px 40px;
+    font-weight: 300;
+    background-color: #3F3F3F;
+    font-size: 1.3em;
+}
+
+.coluna{
+    float: left;
+    width: 33.333%;
+    padding-top: 20px;
+    padding-right: 25px;
+}
+
+  .imagens::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+  }
+
+  
+  .direita{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #3F3F3F;
+  }
+
+  .direita-texto{
+    padding: 10px 30px;
+    align-items: center;
+    color: #fff;
+  }
+
+  .direita-texto h1{
+      padding-top: 50px;
+      padding-right: 350px;
+      font-size: 2em;
+      font-weight: 200;
+  }
+
+  .direita-texto p{
+      padding-top: 29px;
+      max-width: 400px;
+      font-weight: 300;
+  }
+
+  .direita-texto-2{
+    padding: 10px 30px;
+    align-items: center;
+    color: #fff;
+  }
+
+  .direita-texto-2 h1{
+      padding-right: 350px;
+      font-size: 2em;
+      font-weight: 200;
+  }
+
+  .direita-texto-2 p{
+      padding-top: 20px;
+      max-width: 600px;
+      color: #fff;
+      font-weight: 300;
+  }
+
+ .direita img{
+    
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+  }
+
+.localizacao{
+    padding: 40px;
+    background-color: #3D3D3D;
+    text-align: center;
+    font-weight: 300;
+    color: #fff;
+}
+
+.interessado{
+    padding: 40px;
+    background-color: #3D3D3D;
+    text-align: center;
+    font-weight: 300;
+    color: #fff;
+}
+
+footer p{
+    padding: 20px;
+    background-color: #C4C4C4;
+    text-align: center;
+    font-weight: 300;
+    color: black;
+}
+

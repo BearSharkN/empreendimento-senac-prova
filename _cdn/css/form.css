@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Nunito', sans-serif;
+}
+
+main{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/senac.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    padding: 40px;
+    
+}
+
+.menu_principal{
+    width: 100%;
+    background-color: #3D3D3D;
+}
+
+.menu_principal_conteudo{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.menu_principal .menu_principal_conteudo .logo{
+    flex-basis: 330px;
+    width: 190px;
+}
+
+.menu_principal .menu_principal_conteudo .menu_principal_conteudo_menu{
+    flex-basis: calc(100% - 330px);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu_principal_conteudo_menu ul{
+    display: flex;
+    align-items: stretch;
+}
+
+.menu_principal_conteudo_menu ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu_principal_conteudo_menu ul li a{
+    padding: 0 26px;
+    display: flex;;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+.menu_principal_conteudo_menu ul li a:hover{
+    color:red;
+    
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    font-size: 2.5em;
+    padding: 20px
+  }
+
+.formulario {
+    width: 55%;
+    margin: 0 auto;
+  }
+  
+  .formulario-contact {
+    width: 100%;
+    
+  }
+  
+  .form-formulario-input {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+    
+  }
+  
+  .form-formulario-textarea {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+    padding-top: 16px;
+    padding-left: 0;
+    padding-right: 0;
+   
+  }
+  
+  .form-formulario-button {
+
+    width: 100%;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #fff;
+    height: 40px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: #3D3D3D;
+    display: block;
+    border: none;
+    transition: 1s;
+  }
+  
+  .form-formulario-button:hover {
+    color: red;
+  }
+
+
+  footer p{
+    padding: 20px;
+    background-color: #C4C4C4;
+    text-align: center;
+    font-weight: 300;
+    color: black;
+}

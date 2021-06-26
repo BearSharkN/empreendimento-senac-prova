@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+.menu_principal{
+    position: fixed;
+    width: 100%;
+    background-color: #3D3D3D;
+}
+
+.menu_principal_conteudo{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.menu_principal .menu_principal_conteudo .logo{
+    flex-basis: 330px;
+    width: 190px;
+}
+
+.menu_principal .menu_principal_conteudo .menu_principal_conteudo_menu{
+    flex-basis: calc(100% - 330px);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu_principal_conteudo_menu ul{
+    display: flex;
+    align-items: stretch;
+}
+
+.menu_principal_conteudo_menu ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu_principal_conteudo_menu ul li a{
+    padding: 0 26px;
+    display: flex;;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+.menu_principal_conteudo_menu ul li a:hover{
+    color:red;
+    
+}
+
+.cabecalho_primario{
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/6.jpg);
+    background-color: #3D3D3D;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.cabecalho_primario_conteudo{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.cabecalho_primario .cabecalho_primario_conteudo h1{
+    font-size: 4em;
+    color: #fff;
+    font-weight: 300;
+   
+}
+
+.cabecalho_primario .cabecalho_primario_conteudo h2{
+    max-width: 400px;
+    padding-top: 30px;
+    font-size: 2em;
+    color: #fff;
+    font-weight: 300; 
+}
+
+
+.cabecalho_primario .cabecalho_primario_conteudo p{
+    font-size: 1.25em;
+    color: #fff;
+    font-weight: 300;
+
+}
+.cabecalho_primario .cabecalho_primario_conteudo .endereco{
+    padding-bottom: 20px;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+    text-align: end;
+}
+
+.cabecalho_primario .cabecalho_primario_conteudo .lancamento{
+    padding-top: 30px;
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 300;
+    text-align: initial;
+}
+
+.cabecalho_primario .cabecalho_primario_conteudo .cabecalho_primario_conteudo_spacer{
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 160px
+}
+
+
+
+.cabecalho_secundario{
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/v5_21.png);
+    background-color: #3F3F3F;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    
+}
+
+.cabecalho_secundario .cabecalho_secundario_conteudo{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.cabecalho_secundario .cabecalho_secundario_conteudo h1{
+    font-size: 3.75em;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+}
+
+.cabecalho_secundario .cabecalho_secundario_conteudo p{
+    
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cabecalho_secundario .cabecalho_secundario_conteudo .cabecalho_secundario_conteudo_spacer{
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 160px 40px;
+}
+
+
+footer p{
+    padding: 20px;
+    background-color: #C4C4C4;
+    text-align: center;
+    font-weight: 300;
+    color: black;
+}
